@@ -36,3 +36,10 @@ También creamos un scatterplot de con la variable de peso en el eje x e IMC en 
 ggplot(df_grafico, aes(x = peso, y = imc)) + 
   geom_point()
 ```
+
+# Gráficos
+Creamos un histograma de la variable peso.
+```{r histograma_peso}
+ggplot(df_grafico, aes(x = imc)) + 
+  geom_histogram()
+```
